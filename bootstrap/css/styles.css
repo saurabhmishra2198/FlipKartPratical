@@ -1,0 +1,264 @@
+.header_top{
+    height: 56px;
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+.header_bottom{
+    height:112px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid #ccc;
+}
+body{
+    background-color: #f1f3f6;
+}
+div.s_cont {
+    width: 99%;
+    padding: 0px;
+    background-color: #f1f3f6;
+    height: 700px;
+}
+.main_1{
+    height: 362px;
+    margin-top: 20px;
+    background-color: #fff;
+    display: flex;
+    border-top:1px solid #ebebeb;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.main_1_1{
+    width: 85%;
+    height: 362px;
+}
+.main_1_1_header{
+    height: 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, 158);
+}
+.main_1_1_p1 {
+    margin-top: 4px;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.main_1_2{
+    width: 384px;
+    height: 362px;
+    margin-left: 4px;
+}
+.main_2{
+    height:352px;
+    margin-top: 12px;
+    background-color: #fff;
+}
+.main_2_1{
+    height: 80px;
+    border-bottom: 1px solid #172337;
+    display: flex;
+}
+.main_2_1_p {
+    margin-top: 10px;
+    margin-left: 7px;
+    font-size: 21px;
+    font-weight: 550;
+}
+.main_2_1 button {
+    height: 44px;
+    width: 85px;
+    margin-top: 14px;
+    margin-left: 817px;
+    font-size: 14px;
+}
+.header_logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header_top p span {
+    color: yellow;
+    font-weight: 600;
+}
+.header_top p {
+    color: #fff;
+    font-style: italic;
+    font-size: 11px;
+}
+.search{
+    background-color: #fff;
+    padding: 8px;
+    width: 400px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874f0;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1), -7px -7px 10px rgba(0, 0, 0, 0.1) ;
+    border-radius: 2px;
+}
+.search input{
+    width: 380px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.search i {
+    cursor: pointer;
+    padding-top: 2px;
+}
+.loginBtn{
+    padding: 5px 40px;
+    font-size: 16px;
+    font-weight: 550;
+    margin-left: 250px;
+    border: none;
+    outline: none;
+    color: #2874f0;
+}
+.NavLink{
+    margin: 0px 40px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.angledownicon i{
+    font-size: 10px;
+}
+.top_offers{
+    /*height: 112px;*/
+    width: 80px;
+    cursor: pointer;
+    flex: 1;
+    margin-left: 50px;
+}
+.top_offers img {
+    width: 64px;
+    height: 64px;
+}
+.top_offers p {
+    font-weight: 510;
+    font-size: 12px;
+}
+.top_offers:hover p {
+    color: #2874f0;
+}
+.mainDeals{
+    text-decoration: none; 
+    color: black; 
+    font-weight: 500;
+}
+.timerlogo{
+    color: red;
+}
+.viewbtn{
+    margin-top: 15px;
+    font-size: 11px;
+    width: 76px;
+}
+.s_mainDeals{
+    padding: 19px 10px; 
+    font-size: 17px; 
+    display: flex;
+}
+.s_card{
+    width: 18rem; 
+    height: 267px; 
+    border: none; 
+    margin-top: 3px;
+}
+.card_img{
+    height: 48%;
+    width: 115px; 
+    margin-left: 52px;
+}
+.cardtitle{
+    color: black;
+    font-size: 18px;
+}
+.card_rs{
+    color: green;
+}
+.card_samp{
+    color: gray;
+    font-size: 11px;
+}
+.card-main{
+    text-align: center;
+    width: 65%;
+}
+.nextbtn{
+    transform: translate(1389px , -206px);
+    height: 83px; 
+    padding: 0px;
+     margin: 0px; 
+     min-width: 33px; 
+     width: 15%; 
+     margin-left: -420px;
+}
+.addcard{
+    width: 18rem;
+    border: none;
+}
+.addcard_img{
+    height: 350px;
+    width:305px;
+    margin-top:4px;
+    margin-left:20px
+}
+.headerlogo{
+    margin-top: 18px;
+}
+@media only screen and (min-width: 900px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 1200px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
